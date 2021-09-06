@@ -36,24 +36,25 @@ header{
 }
 
 .float{
-    width: calc();
+    width: calc(100% - 30px);
     float: left;
     margin: 10px 0px;
     background-color: paleturquoise;
     height: 200px;
+    border: 1px solid grey;
 }
 
 .colonna-sinistra{
     /* width: 20%; */
-    width: 33.3%;
+    width: 30%;
 }
 .colonna-destra{
    /* width: 20%; */
-    width: 33.3%;
+    width: 30%;
 }
 .colonna-centrale{
    /*  width: 60%; */
-    width: 33.3% ;
+    width: 40% ;
     margin: 10px ;
 }
 
