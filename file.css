@@ -9,7 +9,11 @@ header{
     background-color: lightpink;
 }
 
-.section{
+
+/* main */
+
+
+.section {
     margin-top: 25px;
 }
 
@@ -21,6 +25,9 @@ header{
 .mainblue{
     background-color: rgb(4, 126, 226);
 }
+
+
+
 
 
 .upper-blue-bar{
@@ -36,27 +43,25 @@ header{
 }
 
 .float{
-    width: calc(100% - 30px);
     float: left;
     margin: 10px 0px;
     background-color: paleturquoise;
     height: 200px;
-    border: 1px solid grey;
+    
+}
+ .section aside{
+     width: 20%;
+     height: 800px;
+ }
+
+.colonna-centrale{  
+    width: calc(60% - 20px) ;
+    margin: 10px ;
+    height: 800px;
 }
 
-.colonna-sinistra{
-    /* width: 20%; */
-    width: 30%;
-}
-.colonna-destra{
-   /* width: 20%; */
-    width: 30%;
-}
-.colonna-centrale{
-   /*  width: 60%; */
-    width: 40% ;
-    margin: 10px ;
-}
+/* fine main */
+
 
 
 footer{
