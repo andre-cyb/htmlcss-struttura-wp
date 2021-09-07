@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.main-container{
+    width: 950px;
+    margin: auto;
+}
+
+
 header{
     height: 100px;
     background-color: lightpink;
@@ -54,13 +60,13 @@ header{
 
  .section aside{
      width: 20%;
-     height: 800px;
+     height: 500px;
  }
 
 .colonna-centrale{  
     width: calc(60% - 50px) ;
     margin: 0px 25px ;
-    height: 800px;
+    height: 500px;
 }
 
 /* fine main */
@@ -73,3 +79,9 @@ footer{
     background-color:rgb(128, 50, 128);
 }
 
+
+
+/* PER ESERCIZIO SUCC */
+/* per lo sfondo scuro uso classe image overlay con ::before */
+/* tag ul e li per il menu display inline block e aggiungi tag a per i link li poi togli text decoration link */
+/* nav>ul>li>a  padding al tag a che contiene il testo, ricordati il display: i.b. per  a */
