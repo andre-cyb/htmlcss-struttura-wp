@@ -44,7 +44,7 @@ header{
 
 .float{
     float: left;
-    margin: 10px 0px;
+    margin: 25px 0px;
     background-color: paleturquoise;
     height: 200px;
     
@@ -55,8 +55,8 @@ header{
  }
 
 .colonna-centrale{  
-    width: calc(60% - 20px) ;
-    margin: 10px ;
+    width: calc(60% - 50px) ;
+    margin: 25px ;
     height: 800px;
 }
 
@@ -66,7 +66,7 @@ header{
 
 footer{
     margin-top: 10px;
-    height: 50px;
+    height: 60px;
     background-color:rgb(128, 50, 128);
 }
 
